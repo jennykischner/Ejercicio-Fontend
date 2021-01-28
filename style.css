@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+  
+  
+body {
+    font-family: 'Spartan', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+   
+  }
+  
+  
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 145PX;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+ h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #512051;
+    margin-bottom: 15px;
+  }
+  
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #927B91;
+    line-height: 25px;
+ 
+}
+  
+  
+  .rated-banner {
+    font-size: 13px;
+    font-weight: 700;
+    color: #512051;
+    display: flex;  
+  }
+  
+  
+  .Recuadro-Primero {
+    width: 445px;
+    height: 56px;
+    background: #F7F2F7;
+    margin-top: 18px;
+    border-radius: 5%;
+  }
+
+  .Recuadro-Segundo {
+    width: 445px;
+    height: 56px;
+    background: #F7F2F7;
+    margin-top: 18px;
+    border-radius: 5%;
+  }
+  
+  .Recuadro-Tercero {
+    width: 445px;
+    height: 56px;
+    background: #F7F2F7;
+    margin-top: 18px;
+    border-radius: 5%;
+  }
+  
+  
+  
+  .stars {
+    padding-right: 32px;
+  }
+  
+  
+  .stars img {
+    height: 15.77px;
+    margin: 17px auto;
+  }
+  
+
+  .rated-container {
+    width: 445px;
+    height: 56px;
+    background: #F7F2F7;
+    margin-top: 18px;
+    border-radius: 5%;
+  }
+  
+  .rated1 {
+    margin-left: 120px;
+  }
+  
+  
+  .rated2 {
+    margin-left: 165px;
+    
+  }
+  
+  
+  .rated3 {
+    margin-left: 210px;
+  }
+  
+
+  
+  .container2 {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 100PX;
+    display: flex;
+    flex-wrap: wrap; 
+  }
+
+  
+  .display {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .testimonial-image img {
+    width: 40px;
+    border-radius: 50px;
+    margin: 40px 0 0 30px;
+    position: absolute;
+  
+  }
+  
+  
+  .container-card1 {
+    width: 350px;
+    height: 234px;
+    background: #512051;
+    border-radius: 5%;
+  }
+  
+  
+  .container-card2 {
+    width: 350px;
+    height: 234px;
+    background: #512051;
+    margin-left: 30px;
+    margin-top: 16px;
+    border-radius: 5%;
+  }
+  
+  
+  .container-card3 {
+    width: 350px;
+    height: 234px;
+    background: #512051;
+    margin-left: 30px;
+    margin-top: 32px;
+    border-radius: 5%;
+    
+  }
+  
+  
+  .name h1 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 4px;
+    margin-left: 95px;  
+    margin-top: 45px;
+  }
+  
+  
+  .name h2 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #EE69A4;
+    margin-left: 95px;
+  }
+  
+  
+  .text p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.23px;
+    color: #ffffff;
+    margin-top: 35px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  
+  
+  @media only screen and (max-width: 787px) {
+  
+    body {
+      background: url("/images/bg-pattern-top-mobile.svg")
+       top left no-repeat, url("/images/bg-pattern-bottom-mobile.svg") bottom center no-repeat;
+     
+    }
+    
+    
+  
+    .container1 {
+      max-width: 375px;
+    }
+  
+    .display-left h1 {
+      width: 327px;
+      font-size: 32px;
+      letter-spacing: -1.14px;
+      margin-bottom: 15px;
+      text-align: center;
+      margin-left: 22.5px;
+    }
+  
+    .display-left p {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  
+    .stars {
+      display: block;
+      margin: 0 auto;
+      margin-top: 15px;
+      padding: 0px;
+      align-items: center;
+    }
+  
+    .stars img {
+      margin: 0 auto;
+    }
+  
+    .rated-banner {
+      flex-direction: column;
+    }
+  
+  
+    .rated-container {
+      width: 327px;
+      height: 78px;
+      align-items: center;
+    }
+    
+    .rated-container p {
+      margin-top:10px;
+    }
+  
+    .rated1, .rated2, .rated3 {
+      margin: 0 auto;
+      margin-left: 22.5px;
+      margin-bottom: 15px;
+    }
+  
+    .container-card1, .container-card2, .container-card3 {
+      width: 327px;
+      margin: 0 auto;
+      margin-bottom: 15px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
